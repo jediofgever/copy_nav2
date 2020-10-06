@@ -37,7 +37,7 @@ void WaitAtWaypoint::initialize(
 {
   auto node = parent.lock();
   if (!node) {
-    throw std::runtime_error{"Failed to lock node  in wait at waypoint plugin!"};
+    throw std::runtime_error{"Failed to lock node in wait at waypoint plugin!"};
   }
   logger_ = node->get_logger();
   nav2_util::declare_parameter_if_not_declared(
