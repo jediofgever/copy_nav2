@@ -9,7 +9,7 @@ repositories:
     version: ros2
   ros-simulation/gazebo_ros_pkgs:
     type: git
-    url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+    url: https://github.com/stevemacenski/gazebo_ros_pkgs.git
     version: ros2
   ros-perception/image_common:
     type: git
@@ -23,3 +23,7 @@ repositories:
     type: git
     url: https://github.com/ros/bond_core.git
     version: ros2
+  ompl/ompl:
+    type: git
+    url: https://github.com/ompl/ompl.git
+    version: 1.5.0
